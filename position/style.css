@@ -1,0 +1,29 @@
+body {
+    height: 100vh;
+}
+
+.header {
+    background-color: orange;
+    height: 33%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+.texts {
+    background-color: yellow;
+    display: flex;
+    gap: 10px;
+}
+.boxes {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.box {
+    border: 2px solid black;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+}
